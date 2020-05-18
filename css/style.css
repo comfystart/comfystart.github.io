@@ -7,6 +7,37 @@
  *
  * Made By MaterializeCSS.com
  */
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #012A36;
+    display: block;
+    z-index: 100;
+}
+
+.header-info {
+    line-height: 1em;
+    padding-bottom: .75em;
+    padding-top: .15em;
+    display: block;
+    font-size: 0.85em;
+    color: #E2C2C6;
+    /*position: fixed;*/
+    /*float: left;*/
+}
+
+.header-info > a {
+    color: #E2C2C6;
+}
+
+.header-icon {
+    position: relative;
+    top: 2px;
+    margin-left: 13px;
+}
+
 .testimonials {
     /*background-color: red !important;*/
 }
@@ -54,6 +85,10 @@
 }
 .indicator-item {
     background-color: #54a0ff !important;
+}
+
+.navbar-fixed {
+    top: 1.74em;
 }
 
 .navbar-logo-name {
