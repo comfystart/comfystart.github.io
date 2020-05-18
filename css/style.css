@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.testimonials {
+    /*background-color: red !important;*/
+}
+
+.testimonial {
+     align-content: center;
+     text-align: center;
+     background: white;
+     width: 40% !important;
+     max-width: 400px;
+     min-width: 150px;
+     height: 250px !important;
+     border: solid 1px;
+}
+
+.testimonial-signature {
+    color: dimgrey;
+    font-style: italic;
+    font-family: cursive;
+    text-align: right;
+    position: relative;
+    margin-right: 10px;
+}
+
+.user-profile-pic {
+    width: 100px !important;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 5px 10px 3px;
+    margin-top: -25px;
+}
+
+.sidenav-overlay {
+    left: 300px;
+}
+
+.comfy-start-logo {
+    height: 100%;
+    background: transparent;
+}
+
+.indicator-item.active {
+    background-color: #341f97 !important;
+}
+.indicator-item {
+    background-color: #54a0ff !important;
+}
+
+.navbar-logo-name {
+    font-size: 1em;
+    font-family: cursive;
+    font-weight: 700;
+    position: absolute;
+    width: 200px;
+    top: -10px;
+}
+
+.navbar-logo-sub-name {
+    font-size: 0.43em;
+    font-variant-caps: small-caps;
+    position: absolute;
+    width: 200px;
+    top: 17px;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
